@@ -44,7 +44,12 @@ public class PersistenceWithEJBREST2 extends HttpServlet {
 	}
 
 	private void getPersonsAsJson(HttpServletResponse response, HttpServletRequest request) throws IOException {
+		
+		
+		
 		String searchParam = null;
+		
+		
 		Enumeration parameterList = request.getParameterNames();
 		while (parameterList.hasMoreElements()) {
 			String sName = parameterList.nextElement().toString();

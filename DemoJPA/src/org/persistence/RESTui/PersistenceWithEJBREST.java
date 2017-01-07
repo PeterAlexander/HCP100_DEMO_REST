@@ -21,6 +21,7 @@ import org.slf4j.LoggerFactory;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import javax.ws.rs.*;
 
 /**
  * Simple REST Interface, only GET and POST with JSON.
